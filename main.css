@@ -1,8 +1,68 @@
-body{
+html {
   height: 100%;
-  width: 100%;
+}
+body {
+  width:100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+nav ul{
+  line-height: 50px;
+  margin: 0;
+}
+nav ul li{
+  margin: 0 12px;
+  display: inline;
+}
+main {
+  margin: 0 auto;
+  width:1000px;
+
+}
+section{
+  width:70%;
+  float: left;
+}
+ article figcaption {
+  margin-right:80px;
+  margin-top: 0;
+  float: right;
+}
+p{}
+
+aside{
+  width:30%;
+  margin-left: 800px;
+
+}
+aside ul li{
+list-style: none;
+  margin-left: 0;
+}
+aside ul li img{
+  margin-top: 10px;
+}
+aside ul li figcaption{
+  margin-right:120px;
+  margin-top: 0;
+  float: right;
 }
 
-li{
+footer {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  background-color: blue;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: table-row;
+}
+footer li {
+  margin: 0 12px;
   display: inline;
 }
